@@ -1,9 +1,9 @@
 <?php
-    $HOST = ${{ MYSQLHOST }};
-    $USERNAME = ${{ MYSQLUSER }};
-    $PASSWORD = ${{ MYSQLPASSWORD }};
-    $DATABASE = ${{ MYSQLDATABASE }};
-    $PORT = ${{ MYSQLPORT }};
+    $HOST = getenv('MYSQLHOST');
+    $USERNAME = getenv('MYSQLUSER');
+    $PASSWORD = getenv('MYSQLPASSWORD');
+    $DATABASE = getenv('MYSQLDATABASE');
+    $PORT = getenv('MYSQLPORT');
 
     $connection = new mysqli($HOST, $USERNAME, $PASSWORD, $DATABASE, $PORT);
     if ($connection->connect_errno){
