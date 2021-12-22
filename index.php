@@ -45,9 +45,9 @@
 
                     <div class="hidden sm:flex flex items-center">
                         <?php if(!isset($_SESSION['user'])) { ?>
-                            <a href="./login.php" class="ml-6 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">Sign In</a>
+                            <a href="./login.php" class="ml-6 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-500 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">Sign In</a>
                         <?php } else { ?>
-                            <a href="./controllers/logout_controller.php" class="ml-6 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">Sign Out</a>
+                            <a href="./controllers/logout_controller.php" class="ml-6 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-500 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">Sign Out</a>
                         <?php } ?>
                     </div>
 
@@ -57,6 +57,11 @@
             <div x-show="isMenuOpen" class="sm:hidden" id="mobile-menu">
                 <div class="pt-2 pb-3 space-y-1">
                     <a class="bg-red-50 border-red-500 text-red-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium" aria-current="page">Products</a>
+                    <?php if(!isset($_SESSION['user'])) { ?>
+                        <a href="./login.php" class="border border-transparent rounded-md shadow-sm text-white bg-red-500 block mx-1 pl-3 pr-4 py-2 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 text-base font-medium" aria-current="page">Sign In</a>
+                    <?php } else { ?>
+                        <a href="./controllers/logout_controller.php" class="border border-transparent rounded-md shadow-sm text-white bg-red-500 block mx-1 pl-3 pr-4 py-2 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 text-base font-medium" aria-current="page">Sign Out</a>
+                    <?php } ?>
                 </div>
             </div>
 
