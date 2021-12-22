@@ -1,0 +1,74 @@
+{
+   "products": [
+      {
+         "id":"DNKhrmfolOGJECShgxqh",
+         "name":"Large Gold Glass Rose Appliqué Bauble",
+         "description":"This large gold bauble will add a unique floral accent to traditional Christmas trees. It's crafted from glass and features an intricately detailed red rose appliqué.",
+         "price":199000,
+         "rating":4.9
+      },
+      {
+         "id":"Hl0MlmSFGo5MDnS4WUPH",
+         "name":"Pine Cone & White Berry Wreath",
+         "description":"Display this 16-inch wreath on your door to bring a festive look to your home. It's made from pine with a snowy effect and finished with eucalyptus, mistletoe berries and pine cones.",
+         "price":490000,
+         "rating":3.7
+      },
+      {
+         "id":"U7UB7FdhzDtjow9AHWq0",
+         "name":"Joy Medium Lantern",
+         "description":"Spread a little joy with this charming lantern. The word 'Joy' is written in a brushscript font in a silver decal, set against a backdrop of stars. The glass lantern is suitable for use with a standard tealight and is fitted with a metal handle.",
+         "price":399000,
+         "rating":4.3
+      },
+      {
+         "id":"enVBwEym270Z3MToIcpE",
+         "name":"3 Pack Red Velvet Baubles",
+         "description":"Add an extra eye-catching detail to your Christmas tree with this pack of three baubles. This stylish set includes three velvet designs, with a mix of glittery and textured geometric detailing. Each one has a gold metallic top with a metallic thread for easy hanging.",
+         "price":349000,
+         "rating":4.1
+      },
+      {
+         "id":"kjTwVooneYnYBjr4am2y",
+         "name":"Red Velvet Alphabet Stocking",
+         "description":"Fill this luxe-looking stocking with little gifts for a thoughtful Christmas touch. It's crafted from plush red velvet and features a gold embroidered design including a letter from the alphabet and snowflakes.",
+         "price":449000,
+         "rating":3.5
+      },
+      {
+         "id":"pEgpiPJI9DV8iK5knIAv",
+         "name":"Large Glass Hanging House Scene Snow Globe",
+         "description":"Bring your dreams of a snowy Christmas to life with this large hanging snow globe. Made from glass, it features a white house scene complete with a glittering roof and a mini Christmas tree. This decoration is topped with a pretty, snow-like splatter and a thin, tinsel trim.",
+         "price":199000,
+         "rating":4.6
+      },
+      {
+         "id":"rAbX4t0lqJPcvhEWfKbA",
+         "name":"3 Pack Red Jewelled Leaf Tree Decorations",
+         "description":"Add a touch of shimmer to your tree with these pretty Christmas decorations. They come as a pack of three, with each featuring red jewelled leaves on gold wire.",
+         "price":349000,
+         "rating":2.5
+      },
+      {
+         "id":"s1xiKtwwPnmcAEW4qJTA",
+         "name":"Red Berry Wreath",
+         "description":"With its bright assortment of red berries, this wreath brings a vivid burst of colour to your festive decorations. It's a generous 18 inches in diameter and is woven on a traditional wicker base for extra durability.",
+         "price":999000,
+         "rating":3.6
+      },
+      {
+         "id":"suzc7saBONyg6nZyNyJX",
+         "name":"3 Pack Glass Unicorn Decorations",
+         "description":"Add some magic to your Christmas tree with this set of three glass baubles. This colourful trio features a rainbow, unicorn and ballet shoes, complete with shiny and glitter finishes. The cardboard display box will allow you to store safely for next year too!",
+         "price":499000,
+         "rating":2.9
+      },
+      {
+         "id":"vG31iT6dtbzDt8y6FYwS",
+         "name":"Velvet Joy Slogan Embroidered Cushion",
+         "description":"Give your home some festive flair with this joyful scatter cushion. It features an exquisite embroidered design with a ‘Joy’ slogan surrounded by floral motifs and scattered stars. The square cushion is made from rich velvet fabric for a luxurious feel. Made with recycled polyester filling.",
+         "price":549000,
+         "rating":3.9
+      }
+   ]
+}
